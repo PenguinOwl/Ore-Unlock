@@ -1,0 +1,9 @@
+starting-rank: 2
+prices:
+  stone: 0
+  coal: 10
+  iron: 30
+  gold: 100
+  redstone: 150
+  diamond: 300
+  emerald: 500 

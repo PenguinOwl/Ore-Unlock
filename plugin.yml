@@ -1,0 +1,33 @@
+main: penowl.plugin.oreunlock.Main
+name: OreUnlock
+version: 1.0.1
+author: PenguinOwl
+description: An plugin that requires players to purchase mining levels
+depends: [Vault]
+website: https://dev.bukkit.org/projects/oreunlock
+commands:
+  oreunlock:
+    description: The main OreUnlock command.
+    usage: "/<command> <set|get> [player] [ore#]"
+    permission: oreunlock.use
+    permission-message: You don't have <permission>
+  oreu:
+    description: Alias for the main OreUnlock command.
+    usage: "/<command> <set|get> [player] [ore#]"
+    permission: oreunlock.use
+    permission-message: You don't have <permission>
+  ou:
+    description: Alias for the main OreUnlock command.
+    usage: "/<command> <set|get> [player] [ore#]"
+    permission: oreunlock.use
+    permission-message: You don't have <permission>
+permissions:
+  oreunlock.override:
+    description: Overrides the limitations
+    default: op
+  oreunlock.admin:
+    description: Allows get/set commands
+  oreunlock.use:
+    description: Allows a player to use OreUnlock
+    default: true
+    
